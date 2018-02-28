@@ -27,7 +27,7 @@ var tblStud=mongoose.model("Stud", schemaStud);
 
 // tesing
 app.get('/', (req, res) => {
-  res.send('Hello');
+  res.send('Hello, Varsha');
 });
 
 // Select Stud
